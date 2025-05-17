@@ -23,3 +23,8 @@ alias vim=(which nvim)
 
 # Added by LM Studio CLI (lms)
 set -gx PATH $PATH /Users/kwells/.cache/lm-studio/bin
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/kwells/.lmstudio/bin
+# End of LM Studio CLI section
+

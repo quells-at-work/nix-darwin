@@ -28,8 +28,7 @@
     "unixtools.watch@latest",
     "wget@latest",
     "wrk@latest",
-    "xz@latest",
-    "yt-dlp@latest"
+    "xz@latest"
   ],
   "shell": {
     "init_hook": [
@@ -37,10 +36,10 @@
     ],
     "scripts": {
       "push": [
-        "devbox global push git@github.com:quells/nix-darwin.git"
+        "devbox global push git@github.com:quells-at-work/nix-darwin.git"
       ],
       "pull": [
-        "devbox global pull git@github.com:quells/nix-darwin.git"
+        "devbox global pull git@github.com:quells-at-work/nix-darwin.git"
       ],
       "put_scripts": [
         "./dotfiles.sh"
