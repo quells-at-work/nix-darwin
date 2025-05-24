@@ -117,6 +117,70 @@
         }
       }
     },
+    "awscli2@latest": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#awscli2",
+      "source": "devbox-search",
+      "version": "2.27.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9g4y3hz24m3aybl9jyainb02ak424ay1-awscli2-2.27.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/24d2vncqvcc3m6sql9qfcps5wm5m58pl-awscli2-2.27.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/9g4y3hz24m3aybl9jyainb02ak424ay1-awscli2-2.27.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xnn2f9zm2pp18w1n4ygcpaw47ybwxf5j-awscli2-2.27.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/mkyqdn4y842wz724vf9p843mcwj45sj6-awscli2-2.27.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/xnn2f9zm2pp18w1n4ygcpaw47ybwxf5j-awscli2-2.27.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9lnirxaifvqz9h3par04nfcdwaz7pwjz-awscli2-2.27.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/mc2pnlqf5an6020cpl7l76jydf149m74-awscli2-2.27.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/9lnirxaifvqz9h3par04nfcdwaz7pwjz-awscli2-2.27.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7icb2g3gqvj943pvx3ix9mkb5knf8vd4-awscli2-2.27.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/0l6dnnr62xr8gif2zsy40fal68w3ii5v-awscli2-2.27.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/7icb2g3gqvj943pvx3ix9mkb5knf8vd4-awscli2-2.27.2"
+        }
+      }
+    },
     "bat@latest": {
       "last_modified": "2025-03-23T05:31:05Z",
       "resolved": "github:NixOS/nixpkgs/dd613136ee91f67e5dba3f3f41ac99ae89c5406b#bat",
@@ -1680,6 +1744,54 @@
             }
           ],
           "store_path": "/nix/store/diimq17ddlrhas4y4gw5g4bsd22dshwq-watch-procps-4.0.4"
+        }
+      }
+    },
+    "uv@latest": {
+      "last_modified": "2025-05-20T08:00:33Z",
+      "resolved": "github:NixOS/nixpkgs/2f9173bde1d3fbf1ad26ff6d52f952f9e9da52ea#uv",
+      "source": "devbox-search",
+      "version": "0.7.6",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ld22lal9a6498g22j84sb6jzydlrablf-uv-0.7.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ld22lal9a6498g22j84sb6jzydlrablf-uv-0.7.6"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/23a4i8ryfl5lnckrajif7d5gaaq90l3x-uv-0.7.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/23a4i8ryfl5lnckrajif7d5gaaq90l3x-uv-0.7.6"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8niy70xbnr66bwwc826r4z1h6jlrp6ry-uv-0.7.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8niy70xbnr66bwwc826r4z1h6jlrp6ry-uv-0.7.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zh7c411m600dxh8y2mbmzcpaszr8rgb3-uv-0.7.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zh7c411m600dxh8y2mbmzcpaszr8rgb3-uv-0.7.6"
         }
       }
     },

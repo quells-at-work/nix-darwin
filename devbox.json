@@ -28,7 +28,9 @@
     "unixtools.watch@latest",
     "wget@latest",
     "wrk@latest",
-    "xz@latest"
+    "xz@latest",
+    "awscli2@latest",
+    "uv@latest"
   ],
   "shell": {
     "init_hook": [
