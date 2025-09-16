@@ -30,7 +30,9 @@
     "wrk@latest",
     "xz@latest",
     "awscli2@latest",
-    "uv@latest"
+    "uv@latest",
+    "flyctl@latest",
+    "qrrs@latest"
   ],
   "shell": {
     "init_hook": [

@@ -28,3 +28,7 @@ set -gx PATH $PATH /Users/kwells/.cache/lm-studio/bin
 set -gx PATH $PATH /Users/kwells/.lmstudio/bin
 # End of LM Studio CLI section
 
+set -gx JAVA_HOME '/Applications/Android Studio.app/Contents/jbr/Contents/Home'
+set -gx ANDROID_HOME "$HOME/Library/Android/sdk"
+mkdir -p "$ANDROID_HOME/ndk"
+set -gx NDK_HOME "$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
