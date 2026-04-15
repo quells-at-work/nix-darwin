@@ -32,7 +32,9 @@
     "awscli2@latest",
     "uv@latest",
     "flyctl@latest",
-    "qrrs@latest"
+    "qrrs@latest",
+    "opencode@latest",
+    "pigz@latest"
   ],
   "shell": {
     "init_hook": [
