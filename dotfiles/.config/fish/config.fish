@@ -33,4 +33,6 @@ set -gx ANDROID_HOME "$HOME/Library/Android/sdk"
 mkdir -p "$ANDROID_HOME/ndk"
 set -gx NDK_HOME "$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
 
+source (/opt/homebrew/bin/brew shellenv | psub)
+
 source "$HOME/.cargo/env.fish"

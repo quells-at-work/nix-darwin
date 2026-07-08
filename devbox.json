@@ -34,7 +34,14 @@
     "flyctl@latest",
     "qrrs@latest",
     "opencode@latest",
-    "pigz@latest"
+    "pigz@latest",
+    "postgresql@latest",
+    "pkg-config@latest",
+    "openssl@latest",
+    "azure-cli@latest",
+    "mkcert@latest",
+    "caddy@latest",
+    "nss@latest"
   ],
   "shell": {
     "init_hook": [
