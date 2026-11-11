@@ -31,7 +31,6 @@
     "xz@latest",
     "awscli2@latest",
     "uv@latest",
-    "flyctl@latest",
     "qrrs@latest",
     "opencode@latest",
     "pigz@latest",
